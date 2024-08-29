@@ -18,6 +18,6 @@ function adicionar() {
 }
 
 function limpar() {
-    document.getElementById('quantidade').value = '';
     document.getElementById('lista-produtos').innerHTML = '';
+    document.getElementById('valor-total').innerText = 'R$ 0';
 }
